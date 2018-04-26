@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+html, body{
+	/*height: 100%;*/
+	min-height: 100%;
+}
+
+.empty-space-64{
+	height: 64px;
+}
+
+.empty-space-16{
+	height: 16px;
+}
+
+.container h1{
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.container #chave-random {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.numeros-container, .estrelas-container, #btn-container, #ult-chave, #mais-saidos{
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	flex-direction: row;
+}
+
+#ult-chave, #mais-saidos{
+	flex-direction: column;
+}
+
+#ult-chave h4, #mais-saidos h4{
+	margin-bottom: 0;
+}
+
+#mais-saidos h5{
+	text-align: left;
+}
+
+#ult-chave h6{
+	margin-bottom: 30px;
+}
+
+.numeros-container{
+	margin-bottom: 10px;
+}
+
+.estrelas-container{
+	margin-bottom: 50px;
+}
+
+.div-numero, .div-estrela{
+	width: 100px;
+	height: 100px;
+	background-color: #e5e5e5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	border-radius: 25%;
+	font-size: 30px;
+}
+
+.div-numero.ult-sorteio, .div-estrela.ult-sorteio{
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.div-numero:not(:nth-of-type(5)){
+	margin-right: 10px;
+}
+
+.div-estrela:not(:nth-of-type(2)){
+	margin-right: 10px;
+}
+
+.tabela-num thead:not(:first-of-type) tr th{
+	padding-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
